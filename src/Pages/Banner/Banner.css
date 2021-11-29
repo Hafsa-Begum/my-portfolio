@@ -1,0 +1,11 @@
+.background-img{
+background-image: url('https://wallpaperaccess.com/full/5651982.jpg');
+background-color: #cccccc;
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#banner-name{
+    color: tomato;
+}

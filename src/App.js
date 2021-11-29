@@ -1,12 +1,12 @@
 import {
   BrowserRouter,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import './App.css';
 import About from "./Pages/About/About";
 import ContactMe from "./Pages/ContactMe/ContactMe";
+import Header from "./Pages/Header/Header";
 import Home from './Pages/Home/Home/Home';
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Services from "./Pages/Services/Services";
@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path='/' element={<Home></Home>} />
           <Route path='/home' element={<Home></Home>} />

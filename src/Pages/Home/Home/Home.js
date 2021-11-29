@@ -1,9 +1,22 @@
 import React from 'react';
+import About from '../../About/About';
+import Banner from '../../Banner/Banner';
+import ContactMe from '../../ContactMe/ContactMe';
+import Footer from '../../Footer/Footer';
+import Portfolio from '../../Portfolio/Portfolio';
+import Services from '../../Services/Services';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
+        <div id="home">
+            <Banner></Banner>
+            <About></About>
+            <Services></Services>
+            <Portfolio />
+            <ContactMe />
+            <Footer />
+
+
         </div>
     );
 };
