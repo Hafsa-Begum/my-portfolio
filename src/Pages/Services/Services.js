@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 const services = [
     {
         id: 1,
@@ -24,20 +25,31 @@ const Services = () => {
     return (
         <div id='services'>
             <div className='container'>
-                <h1 className='py-5 text-center' style={{ fontSize: '74px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Services</h1>
+
+                <ScrollAnimation animateIn='bounceInLeft'
+                    animateOut='bounceOutRight'>
+                    <h1 className='py-5 text-center' style={{ fontSize: '74px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Services</h1>
+                </ScrollAnimation>
+
 
                 <div className='row row-cols-1 row-cols-md-3 g-4'>
                     {
                         services.map(service => (
                             <div key={service.id} class="col">
-                                <div className="card h-100">
-                                    <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />
-                                    <div className="card-body text-dark px-5">
-                                        <h5 className="card-title">{service.name}</h5>
-                                        <p className="card-text">{service.description}</p>
 
+                                <ScrollAnimation animateIn='wobble'
+                                    initiallyVisible={true}>
+                                    <div className="card h-100">
+                                        <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />
+                                        <div className="card-body text-dark px-5">
+                                            <h5 className="card-title">{service.name}</h5>
+                                            <p className="card-text">{service.description}</p>
+
+                                        </div>
                                     </div>
-                                </div>
+                                </ScrollAnimation>
+
+
                             </div>
                         ))
                     }

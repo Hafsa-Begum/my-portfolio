@@ -9,7 +9,12 @@
             "img3": "https://i.ibb.co/nmKDjvN/pink-babs-dashboard.png"
         },
         "description": {
-            "short": "Developed a responsive full-stack app with firebase authentication using Google & email-password.Customers can order baby lotion as well as see their orders and cancel their order after logging in. Admin can approve orders, manage all orders, manage all products, add products, make admin others.",
+            "d1": "An awesome niche product baby lotion selling website",
+            "d2": "An outstanding looking website is this Pink Babs website.",
+            "d3": "Developed a responsive full-stack app with firebase authentication using Google & email-password.",
+            "d4": "Customers can order baby lotion as well as see their orders and cancel their order after logging in.",
+            "d5": "Admin can approve orders, manage all orders, manage all products, add products, make admin others.",
+            "short": "Developed a responsive full-stack app with firebase authentication using Google & email-password. Customers can order baby lotion as well as see their orders and cancel their order after logging in. Admin can approve orders, manage all orders, manage all products, add products, make admin others.",
             "long": "",
             "tech": "React, React-router, Material UI, Firebase, Node JS, Express JS, MongoDB, Heroku"
         },
@@ -27,6 +32,11 @@
             "img3": "https://i.ibb.co/19wMBMw/mobile-dash.png"
         },
         "description": {
+            "d1": "Completely Fullstack responsive website",
+            "d2": "Created Credit Card payment method using Stripe API.",
+            "d3": "Admin and Customer separate dashboard are available.",
+            "d4": "Customers can book services, see their services, cancel their services, check status of booking and add reviews.",
+            "d5": "Admin can approve services, manage all services, manage all bookings, add services, make admin others.",
             "short": "Created Credit Card payment method using Stripe API. Admin and Customer separate dashboard are available. Customers can book services, see their services, cancel their services, check status of booking and add reviews. Admin can approve services, manage all services, manage all bookings, add services, make admin others.",
             "long": "",
             "tech": "React, React-router-version-6, Payment Gateway, Material UI, Firebase, Node JS, Express JS, MongoDB, Heroku, Sweet-alert."
@@ -45,6 +55,11 @@
             "img3": "https://i.ibb.co/R0k6sX2/assignment-9-edu-care-kindergarten-by-hafsa-netlify-app-2.png"
         },
         "description": {
+            "d1": "This is a child-care educational website",
+            "d2": "Good looking, full-responsive ui is made using Bootstrap-5",
+            "d3": "It is a Four pages website, pages are Home, About, Services, Teachers, Contact Us ",
+            "d4": "The pagination system is flexible here.",
+            "d5": "One Viewer can see all services and know about them.",
             "short": "This is a child-care educational website. It is a Four pages website, pages are Home, About, Services, Teachers, Contact Us, One Viewer can see all services and know about them.",
             "long": "",
             "tech": "React, react-router, Bootstrap."
@@ -63,7 +78,12 @@
             "img3": "https://i.ibb.co/7jfcDt0/senior-care-home-c9388-web-app-2.png"
         },
         "description": {
-            "short": "Utilized React router for separate and Firebase Auth for secure website. Implemented login system using Google and email-password. Users will be able to see service details after logged in. ",
+            "d1": "This is a health-related website which is service based.",
+            "d2": "Utilized React router for separate and Firebase Auth for secure website.",
+            "d3": "Implemented login system using Google and email-password ",
+            "d4": "A good looking UI and full-responsive website",
+            "d5": "Users will be able to see service details after logged in.",
+            "short": "Utilized React router for separate and Firebase Auth for secure website. Implemented login system using Google and email-password. Users will be able to see service details after logged in.",
             "long": "",
             "tech": "React, React-router, React-Bootstrap, Firebase."
         },
@@ -81,8 +101,12 @@
             "img3": "https://i.ibb.co/60wDGdr/tourist-club-36241-web-app-2.png"
         },
         "description": {
+            "d1": "A simple dashboard is implemented for users",
+            "d2": "To book a tour, a user must be logged in using Google or email & password",
+            "d3": "Users can see their booking, approve booking, manage all bookings.",
+            "d4": "This is a Fullstack Responsive website",
+            "d5": "Tour description, fee, reviews all values are given here ",
             "short": "A simple dashboard is implemented for users. To book a tour, a user must be logged in using Google or email & password. Users can see their booking, approve booking, manage all bookings.",
-            "long": "",
             "tech": "React, React-router, React-Bootstrap, Firebase, Node JS, Express JS, MongoDB, Heroku."
         },
         "server": "https://github.com/Hafsa-Begum/tourist-club-server",

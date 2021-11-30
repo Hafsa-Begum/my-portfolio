@@ -4,7 +4,7 @@ const useFetch = () => {
     const [websites, setWebsites] = useState([]);
 
     useEffect(() => {
-        fetch('./datas.json')
+        fetch('https://raw.githubusercontent.com/Hafsa-Begum/my-portfolio/main/public/datas.json')
             .then(res => res.json())
             .then(data => setWebsites(data))
     }, [])

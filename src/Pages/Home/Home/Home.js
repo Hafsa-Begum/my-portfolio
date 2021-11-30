@@ -3,7 +3,6 @@ import About from '../../About/About';
 import Banner from '../../Banner/Banner';
 import Blogs from '../../Blogs/Blogs';
 import ContactMe from '../../ContactMe/ContactMe';
-import Footer from '../../Footer/Footer';
 import Portfolio from '../../Portfolio/Portfolio';
 import Services from '../../Services/Services';
 
@@ -16,9 +15,6 @@ const Home = () => {
             <Portfolio />
             <Blogs />
             <ContactMe />
-            <Footer />
-
-
         </div>
     );
 };

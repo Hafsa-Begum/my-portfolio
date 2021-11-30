@@ -1,0 +1,13 @@
+.icon-container .icon{
+    border: 1px solid goldenrod;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 50%;
+    color: goldenrod;
+}
+.icon-container .icon:hover{
+    background-color: goldenrod;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}

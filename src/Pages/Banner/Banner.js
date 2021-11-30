@@ -1,17 +1,8 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Particles from 'react-particles-js';
 import Typing from 'react-typing-animation';
 import './Banner.css';
-const roles = [
-    {
-        id: 1,
-        name: 'Web Developer',
-    },
-    {
-        id: 2,
-        name: 'Web Designer'
-    }
-];
 
 const Banner = () => {
     return (
@@ -101,28 +92,41 @@ const Banner = () => {
                 className='d-flex justify-content-center align-items-center py-5 text-center px-5'>
                 <div className="px-5 mx-5 text-center ">
 
-                    <h1 id='banner-name' className='pt-5 mt-5 text-white'><span style={{ fontFamily: 'Roboto' }}>Hello, I am</span> <br /> <span style={{
-                        fontSize: '74px',
-                        color: 'goldenrod',
-                        fontFamily: "'Dancing Script', 'cursive'"
-                    }} className='pb-3 my-3' >Mst Hafsa Begum</span></h1>
-                    <h1 style={{ color: '#2c7da0 !important' }} className='pb-3 text-white'>Web Developer</h1>
+                    <h1 className='pt-5 mt-5 text-white'><span style={{ fontFamily: "'Dancing Script', 'cursive'", }}>Hello, I am</span> <br /></h1>
+                    <h1 id='banner-name' className='pt-2'>
+                        <ScrollAnimation animateIn='flipInY'
+                            animateOut='flipOutY'>
+                            <span style={{
+                                fontSize: '74px',
+                                color: 'goldenrod',
+                                fontFamily: "'Dancing Script', 'cursive'",
+                            }} className='pb-3 my-3' >Mst Hafsa Begum</span>
+                        </ScrollAnimation>
+                    </h1>
 
-                    {/* <div className='text-white'>{roles.map(role => <div>
-                        <Typing delay={500}>
-                            <h4>{role.name}</h4>
-                        </Typing>
+
+                    <Typing loop={true}>
+                        <div>
+                            <h1 style={{ fontFamily: "'Dancing Script', 'cursive'" }} className='pb-3 text-white'>
+                                <span>Frontend Developer</span>
+                                <Typing.Delay ms={100} />
+                                <Typing.Backspace count={50} />
+                                <span>Responsive Web Designer</span> </h1>
+                            <Typing.Backspace count={50} />
+                        </div>
+                    </Typing>
+
+                    <div className='d-flex justify-content-center'>
+                        <div className="regular-btn">
+                            <ul>
+                                <li>
+                                    Hire Me
+                                    <span></span><span></span><span></span><span></span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    )}</div> */}
-                    {/* <div className="regular-btn">
-                        <ul>
-                            <li>
-                                Hire Me
-                                <span></span><span></span><span></span><span></span>
-                            </li>
-                        </ul>
-                    </div> */}
-                    <button className="btn text-white fw-bold fs-5  px-5 py-2" style={{ backgroundColor: 'goldenrod' }}>Hire Me </button>
+                    {/* <button className="btn text-white fw-bold fs-5  px-5 py-2" style={{ backgroundColor: 'goldenrod' }}>Hire Me </button> */}
                 </div>
             </div>
         </div >

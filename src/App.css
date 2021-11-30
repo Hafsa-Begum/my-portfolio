@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   overflow-x: hidden;
+  color: #fff;
   background-color: #282c34;
-  font-size: 'Roboto', sans-serif;
+  font-size: 'Poppins', sans-serif;
 }
 
 /* font-family: 'Dancing Script', cursive;
