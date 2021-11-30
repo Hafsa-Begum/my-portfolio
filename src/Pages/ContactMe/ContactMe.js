@@ -27,23 +27,23 @@ const ContactMe = () => {
                 <form onSubmit={sendEmail} className='w-75 mx-auto'>
                     <ScrollAnimation animateIn='bounceInLeft'>
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" name="name" />
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name" name="name" required />
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight'>
                         <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="email" />
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="email" required />
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInLeft'>
                         <div className="mb-3">
-                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject" name="subject" />
+                            <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Subject" name="subject" required />
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn='bounceInRight'
                         animateOut='bounceOutLeft'>
                         <div class="mb-3">
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write Message" name="message"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write Message" name="message" required></textarea>
                         </div>
                     </ScrollAnimation>
                     {/* <div type='submit' className="regular-btn">
