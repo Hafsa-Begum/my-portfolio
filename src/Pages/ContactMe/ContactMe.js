@@ -17,7 +17,7 @@ const ContactMe = () => {
     };
     return (
         <div id="contactMe" className="row my-5">
-            <h3>Contact Me</h3>
+            <h1 className='py-5 text-center' style={{ fontSize: '64px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Contact Me</h1>
             <div className="col-md-6">
                 <form onSubmit={sendEmail} className='w-75 ms-5'>
 

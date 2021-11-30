@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='bg-dark text-white py-5'>
             <img className="rounded-circle" src={logo} alt="" />
-            <p className='my-3'>Copyright © All right reserved by Mst Hafsa Begum</p>
+            <p style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }} className='my-3'>Copyright © All right reserved by Mst Hafsa Begum</p>
         </div>
     );
 };

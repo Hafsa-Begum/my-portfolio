@@ -10,7 +10,7 @@ const services = [
         id: 2,
         name: 'Web Development',
         description: 'I am expert in web designing. I can add functionality besides designing a webpage. I use HTML, CSS, Bootstrap, Vanilla Js, React JS for it. You can see some of my works below ',
-        image: 'https://i.ibb.co/86PXgdt/eftakher-alam-i1-VQZs-U86ok-unsplash.jpg'
+        image: 'https://i.ibb.co/C01ZPjp/image-2.png'
     },
     {
         id: 3,
@@ -24,17 +24,17 @@ const Services = () => {
     return (
         <div id='services'>
             <div className='container'>
-                <h1 className='py-5 text-center' style={{ color: "tomato" }}>Our All Services</h1>
+                <h1 className='py-5 text-center' style={{ fontSize: '74px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Services</h1>
 
                 <div className='row row-cols-1 row-cols-md-3 g-4'>
                     {
                         services.map(service => (
-                            <div class="col">
-                                <div class="card h-100">
+                            <div key={service.id} class="col">
+                                <div className="card h-100">
                                     <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />
                                     <div className="card-body text-dark px-5">
-                                        <h5 class="card-title">{service.name}</h5>
-                                        <p class="card-text">{service.description}</p>
+                                        <h5 className="card-title">{service.name}</h5>
+                                        <p className="card-text">{service.description}</p>
 
                                     </div>
                                 </div>
