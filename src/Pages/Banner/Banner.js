@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import Typing from 'react-typing-animation';
 import './Banner.css';
 

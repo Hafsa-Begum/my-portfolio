@@ -17,7 +17,12 @@ const About = () => {
                     <div>
                         <h4 className='mb-3' style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Why you choose me?
                         </h4>
-                        <p className='fs-5'>I am a junior web developer, familiar with HTML5, CSS3, JavaScript, React, Firebase, Node JS, MongoDB, Express JS, Payment Gateway-stripe, C, flexible with multiple css libraries - Bootstrap-5, React-Bootstrap, Material UI, Tailwind CSS. <br /> <br /> I have done some real-world projects always focusing on clean code, organized work, and time management. I am currently looking for a job to accelerate my skills and prove my ability on professional projects.</p>
+                        <p className='fs-5'>I am a skilled software developer with over 3 years of experience in full-stack development,
+API design, and system integrations. Currently, I lead technology at Lehoa, specializing in
+building scalable platforms, managing deployments, and enhancing user experiences. I excel
+in solving complex problems, collaborating with teams, and delivering impactful solutions
+with a focus on innovation and efficiency. I am available to contribute to part-time or
+contractual challenging projects.</p>
                     </div>
                 </ScrollAnimation>
 

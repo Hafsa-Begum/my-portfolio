@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import useFetch from '../../hooks/useFetch';
 
