@@ -30,13 +30,20 @@ contractual challenging projects.</p>
                     animateOut='bounceOutLeft'>
                     <div>
                         <h4 className='my-5' style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Some of My Skills</h4>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>HTML5</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>CSS3</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>JavaScript</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>TypeScript</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>React Js </button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Next Js </button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Vue Js </button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>AWS</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Nuxt Js </button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Node Js</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>MongoDB</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>PostgreSQL</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Prisma</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Firebase</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>HTML5</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>CSS3</button>
                     </div>
                 </ScrollAnimation>
 
