@@ -18,11 +18,12 @@ const About = () => {
                         <h4 className='mb-3' style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Why you choose me?
                         </h4>
                         <p className='fs-5'>I am a skilled software developer with over 3 years of experience in full-stack development,
-API design, and system integrations. Currently, I lead technology at Lehoa, specializing in
-building scalable platforms, managing deployments, and enhancing user experiences. I excel
-in solving complex problems, collaborating with teams, and delivering impactful solutions
-with a focus on innovation and efficiency. I am available to contribute to part-time or
-contractual challenging projects.</p>
+                            API design, and system integrations. Currently, I lead technology at Lehoa, specializing in
+                            building scalable platforms, managing deployments, and enhancing user experiences. I excel
+                            in solving complex problems, collaborating with teams, and delivering impactful solutions
+                            with a focus on innovation and efficiency. I am available to contribute to part-time or
+                            contractual challenging projects.
+                         </p>
                     </div>
                 </ScrollAnimation>
 
@@ -35,15 +36,14 @@ contractual challenging projects.</p>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>React Js </button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Next Js </button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Vue Js </button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>AWS</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Nuxt Js </button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>SvelteKit</button>
+                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>AWS</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Node Js</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>MongoDB</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>PostgreSQL</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Prisma</button>
                         <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Firebase</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>HTML5</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>CSS3</button>
                     </div>
                 </ScrollAnimation>
 

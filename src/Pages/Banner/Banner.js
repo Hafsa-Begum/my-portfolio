@@ -1,87 +1,16 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import Particles from 'react-tsparticles';
 import Typing from 'react-typing-animation';
 import './Banner.css';
+import ParticlesComponent from './ParticlesComponent';
 
 const Banner = () => {
     return (
         <div className='background-img' >
+           
 
-            <Particles
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 20,
-                            "density": {
-                                "enable": true,
-                                "value_area": 800
-                            }
-                        },
-                        "line_linked": {
-                            "enable": false
-                        },
-                        "move": {
-                            "speed": 1,
-                            "out_mode": "out"
-                        },
-                        "shape": {
-                            "type": [
-                                "image",
-                                "circle"
-                            ],
-                            "image": [
-                                {
-                                    "src": "/react.png",
-                                    "height": 20,
-                                    "width": 23
-                                },
-                                {
-                                    "src": "/js.png",
-                                    "height": 20,
-                                    "width": 20
-                                },
-                                {
-                                    "src": "/mongodb.png",
-                                    "height": 20,
-                                    "width": 20
-                                },
-                                {
-                                    "src": "/html.png",
-                                    "height": 20,
-                                    "width": 20
-                                },
-                                {
-                                    "src": "/css.png",
-                                    "height": 20,
-                                    "width": 20
-                                }
-                            ]
-                        },
-                        "color": {
-                            "value": "#CCC"
-                        },
-                        "size": {
-                            "value": 30,
-                            "random": false,
-                            "anim": {
-                                "enable": true,
-                                "speed": 4,
-                                "size_min": 10,
-                                "sync": false
-                            }
-                        }
-                    },
-                    "retina_detect": false
-                }} style={{
-                    backgroundImage: "url('https://wallpaperaccess.com/full/5651982.jpg')",
-                    backgroundColor: '#cccccc',
-                    height: '100vh',
-                    backgroundPosition: 'center',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: 'cover',
-                    zIndex: '-1'
-                }} />
+
+            <ParticlesComponent/>
             <div style={{
                 position: "absolute",
                 top: 0,
@@ -108,7 +37,7 @@ const Banner = () => {
                     <Typing loop={true}>
                         <div>
                             <h1 style={{ fontFamily: "'Dancing Script', 'cursive'" }} className='pb-3 text-white'>
-                                <span>Frontend Developer</span>
+                                <span>Software Developer</span>
                                 <Typing.Delay ms={100} />
                                 <Typing.Backspace count={50} />
                                 <span>Responsive Web Designer</span> </h1>
@@ -126,7 +55,7 @@ const Banner = () => {
                             </ul>
                         </div>
                     </div>
-                    {/* <button className="btn text-white fw-bold fs-5  px-5 py-2" style={{ backgroundColor: 'goldenrod' }}>Hire Me </button> */}
+                    
                 </div>
             </div>
         </div >
