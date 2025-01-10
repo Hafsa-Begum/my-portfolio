@@ -17,33 +17,17 @@ const About = () => {
                     <div>
                         <h4 className='mb-3' style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Why you choose me?
                         </h4>
-                        <p className='fs-5'>I am a skilled software developer with over 3 years of experience in full-stack development,
-                            API design, and system integrations. Currently, I lead technology at Lehoa, specializing in
-                            building scalable platforms, managing deployments, and enhancing user experiences. I excel
-                            in solving complex problems, collaborating with teams, and delivering impactful solutions
-                            with a focus on innovation and efficiency. I am available to contribute to part-time or
-                            contractual challenging projects.
-                         </p>
-                    </div>
-                </ScrollAnimation>
-
-                <ScrollAnimation animateIn='bounceInRight'
-                    animateOut='bounceOutLeft'>
-                    <div>
-                        <h4 className='my-5' style={{ fontSize: '34px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Some of My Skills</h4>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>JavaScript</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>TypeScript</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>React Js </button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Next Js </button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Vue Js </button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Nuxt Js </button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2 px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>SvelteKit</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>AWS</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Node Js</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>MongoDB</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>PostgreSQL</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Prisma</button>
-                        <button className="btn text-white fw-bold fs-5 mx-2 mb-2  px-3 py-2" style={{ backgroundColor: 'goldenrod' }}>Firebase</button>
+                        <p className='fs-5'>I am a passionate and skilled software developer with over 3 years of experience
+                         in full-stack development, API design, and seamless system integrations. My expertise lies in 
+                         crafting scalable platforms, streamlining deployments, and enhancing user experiences through
+                          thoughtful design and innovation.
+                        </p>
+                        <p className='fs-5'>
+                            Driven by a love for solving complex challenges, I thrive in collaborative environments, delivering
+                             impactful solutions with a focus on efficiency and excellence. Whether it’s a full-time, part-time,
+                              or contractual opportunity, I am eager to contribute to projects that demand creativity, technical
+                               expertise, and a commitment to success.
+                        </p>
                     </div>
                 </ScrollAnimation>
 

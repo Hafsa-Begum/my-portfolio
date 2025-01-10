@@ -5,12 +5,14 @@ import Blogs from '../../Blogs/Blogs';
 import ContactMe from '../../ContactMe/ContactMe';
 import Portfolio from '../../Portfolio/Portfolio';
 import Services from '../../Services/Services';
+import WorkExperience from '../../WorkExperience/WorkExperience';
 
 const Home = () => {
     return (
         <div id="home">
             <Banner></Banner>
             <About></About>
+            <WorkExperience/>
             <Services></Services>
             <Portfolio />
             <Blogs />

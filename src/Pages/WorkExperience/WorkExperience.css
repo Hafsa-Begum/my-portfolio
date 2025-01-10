@@ -1,0 +1,9 @@
+.custom-card {
+    border-radius: 0px 80px 0px 80px; /* Adjust the curvature here */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for aesthetics */
+    overflow: hidden; /* Ensures content respects the border radius */
+  }
+  .custom-card:hover {
+    transform: scale(1.02); /* Optional: Add a hover effect */
+    transition: transform 0.3s ease;
+  }
