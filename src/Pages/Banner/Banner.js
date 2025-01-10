@@ -7,9 +7,6 @@ import ParticlesComponent from './ParticlesComponent';
 const Banner = () => {
     return (
         <div className='background-img' >
-           
-
-
             <ParticlesComponent/>
             <div style={{
                 position: "absolute",
@@ -25,11 +22,7 @@ const Banner = () => {
                     <h1 id='banner-name' className='pt-2'>
                         <ScrollAnimation animateIn='flipInY'
                             animateOut='flipOutY'>
-                            <span style={{
-                                fontSize: '74px',
-                                color: 'goldenrod',
-                                fontFamily: "'Dancing Script', 'cursive'",
-                            }} className='pb-3 my-3' >Mst Hafsa Begum</span>
+                            <span style={{color: 'goldenrod',fontFamily: "'Dancing Script', 'cursive'"}} className='pb-3 my-3 my-name' >Mst Hafsa Begum</span>
                         </ScrollAnimation>
                     </h1>
 
