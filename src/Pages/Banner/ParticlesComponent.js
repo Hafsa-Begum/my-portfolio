@@ -44,7 +44,7 @@ const ParticlesComponent = () => {
                 width: 13,
               },
               {
-                src: "/js.png",
+                src: "/nextjs.png",
                 height: 10,
                 width: 10,
               },
@@ -54,12 +54,17 @@ const ParticlesComponent = () => {
                 width: 10,
               },
               {
-                src: "/html.png",
+                src: "/prisma.png",
                 height: 10,
                 width: 10,
               },
               {
-                src: "/css.png",
+                src: "/aws.png",
+                height: 10,
+                width: 10,
+              },
+              {
+                src: "/nuxt.png",
                 height: 10,
                 width: 10,
               },

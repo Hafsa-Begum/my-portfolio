@@ -4,19 +4,16 @@ import './WorkExperience.css';
 
 const WorkExperience = () => {
     return (
-        <div className="row py-5 text-start px-5">
-            <ScrollAnimation animateIn='bounceInRight'
-                animateOut='bounceOutLeft'>
+        <div id="experience" className="row py-5 text-start px-5">
                 <h1 className='py-5 text-center'
                     style={{ fontSize: '64px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>
                     Working Experience
                 </h1>
-            </ScrollAnimation>
 
             <div className="col-md-6">
                 <ScrollAnimation animateIn='bounceInRight'
                     animateOut='bounceOutLeft' duration={2}
-                    delay={500}
+                    delay={700}
                     offset={200}>
                     <div style={{ backgroundColor: 'goldenrod', borderRadius: '0px 80px 0px 80px' }} class="card mb-3 shadow-sm custom-card">
                         <div class="card-body">
@@ -57,7 +54,7 @@ const WorkExperience = () => {
 
             <div className="col-md-6">
                 <ScrollAnimation animateIn='bounceInLeft' duration={2}
-                    delay={500}
+                    delay={700}
                     offset={200}>
                     <div style={{ height: "550px" , backgroundColor: 'goldenrod', borderRadius: '0px 80px 0px 80px' }} class="card mb-3 shadow-sm custom-card">
                         <div class="card-body">

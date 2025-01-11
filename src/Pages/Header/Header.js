@@ -30,13 +30,14 @@ const Header = () => {
         {/* Navigation Links */}
         <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#home">Home</Nav.Link>
         <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#about">About</Nav.Link>
+        <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#experience">Experience</Nav.Link>
         <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#services">Services</Nav.Link>
         <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#blogs">Blogs</Nav.Link>
-        <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#contactMe">Contact Me</Nav.Link>
+        <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#contactMe">Contact</Nav.Link>
         <Nav.Link className="my-auto nav-item" as={NavHashLink} to="/home#portfolio">Portfolio</Nav.Link>
         {/* Resume Button */}
-        <div className="d-lg-none d-flex justify-content-center mt-3 w-100">
-        <Nav.Link href="/Mst Hafsa Begum.pdf" target="_blank" download>
+        <div className="d-flex justify-content-center mt-3 w-100">
+        <Nav.Link href="/Mst-Hafsa-Begum.pdf" target="_blank" download>
           <div className="regular-btn">
             <ul>
               <li>

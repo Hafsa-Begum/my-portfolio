@@ -25,11 +25,7 @@ const Services = () => {
     return (
         <div id='services'>
             <div className='container'>
-
-                <ScrollAnimation animateIn='bounceInLeft'
-                    animateOut='bounceOutRight'>
                     <h1 className='py-5 text-center' style={{ fontSize: '74px', color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}>Services</h1>
-                </ScrollAnimation>
 
 
                 <div className='row row-cols-1 row-cols-md-3 g-4'>
@@ -38,7 +34,9 @@ const Services = () => {
                             <div key={service.id} class="col">
 
                                 <ScrollAnimation animateIn='wobble'
-                                    initiallyVisible={true}>
+                                    initiallyVisible={true} duration={2}
+                                    delay={500}
+                                    offset={200}>
                                     <div className="card h-100">
                                         <img className='w-100 rounded-3 mb-3 card-img-top' style={{ height: '300px' }} src={service.image} alt="" />
                                         <div className="card-body text-dark px-5">

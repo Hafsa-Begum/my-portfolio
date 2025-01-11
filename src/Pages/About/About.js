@@ -6,18 +6,18 @@ const About = () => {
         <div id="about" className="row py-5 text-white text-start px-3 px-md-5">
 
             {/* Section Heading */}
-            <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
                 <h1
                     style={{ fontSize: "74px", color: "goldenrod", fontFamily: "'Dancing Script', 'cursive'" }}
                     className="text-center pb-5"
                 >
                     About Me
                 </h1>
-            </ScrollAnimation>
 
             {/* Left Column - Text Content */}
             <div className="col-12 col-lg-6 px-4">
-                <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight">
+                <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceOutRight" duration={2}
+                    delay={500}
+                    offset={200}>
                     <div>
                         <h4
                             className="mb-3"
@@ -43,7 +43,12 @@ const About = () => {
 
             {/* Right Column - Image */}
             <div className="col-12 col-lg-6 d-flex justify-content-center">
-                <ScrollAnimation animateIn="bounceInRight" animateOut="bounceOutLeft">
+                <ScrollAnimation 
+                    animateIn="bounceInRight" 
+                    animateOut="bounceOutLeft" 
+                    duration={2}
+                    delay={500}
+                    offset={200}>
                     <div className='mt-3'>
                         <img
                             className="rounded-circle"
